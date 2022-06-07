@@ -163,13 +163,16 @@ def get_text_messages(message):
 
         # ======================================= вышмат
         elif ms_text == "Фото":
-            VS.f(bot, chat_id)
+            VS.F(bot, chat_id)
 
-        elif ms_text == "Короткое видео":
-            VS.integral(bot, chat_id)
+        elif ms_text == "Короткие видео":
+            VS.KV(bot, chat_id)
 
-        elif ms_text == "Длинное видео":
-            VS.t(bot, chat_id)
+        elif ms_text == "Длинные видео":
+            VS.DV(bot, chat_id)
+
+        elif ms_text == "test":
+            VS.FF(bot, chat_id)
 
 
         # ======================================= случайный текст
